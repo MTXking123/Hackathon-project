@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-export default function Home() {
+export default function About() {
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -10,9 +10,8 @@ export default function Home() {
       transition={{ duration: 0.8 }}
       className="text-center"
     >
-      <h1 className="text-4xl font-bold mb-4">Welcome to Our Hackathon Site</h1>
-      <p className="text-lg">Building amazing things together!</p>
+      <h1 className="text-4xl font-bold mb-4">About Us</h1>
+      <p className="text-lg">We are passionate innovators building the future!</p>
     </motion.section>
   );
 }
-
